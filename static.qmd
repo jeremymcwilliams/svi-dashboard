@@ -1,0 +1,21 @@
+---
+title: Social Vulnerability Index
+format: 
+  dashboard:
+    orientation: rows
+
+---
+
+## Row {height=50%}
+
+some text
+
+
+
+
+## Row {height=50%}
+
+more text
+
+
+
