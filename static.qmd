@@ -2,20 +2,69 @@
 title: Social Vulnerability Index
 format: 
   dashboard:
-    orientation: rows
+    orientation: columns
 
 ---
 
-## Row {height=50%}
 
-some text
-
-
-
-
-## Row {height=50%}
-
-more text
+```{r setup, include=FALSE}
+# Load required libraries
+library(tidyverse)
+library(gt)
 
 
+# Set global options (optional)
+knitr::opts_chunk$set(
+  echo = FALSE,       # Don't show code in the output
+  warning = FALSE,   # Suppress warnings in the output
+  message = FALSE    # Suppress messages in the output
+)
+```
+
+
+
+## Column {width=50%}
+
+### Row {height=20%}
+
+```{r}
+#| content: valuebox
+#| title: "Spam per day"
+list(
+  icon = "truck-front",
+  color = "danger",
+  value = 15
+)
+```
+
+
+```{r}
+#| content: valuebox
+#| title: "Total penguins"
+list(
+  icon = "feather",
+  color = "#336699",
+  value = 100
+)
+```
+
+
+
+
+
+
+### Row {height=80%}
+
+table
+
+
+
+## Column {width=50%}
+
+```{r}
+#| title: Map
+
+z<-"hell0"
+z
+```
 
